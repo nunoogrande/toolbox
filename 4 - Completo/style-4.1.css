@@ -1,0 +1,12 @@
+nav{
+    background-color: olivedrab;
+    display: inline-block;
+    vertical-align: top;
+    width: 25%;
+}
+.column{
+    background-color: orange;
+    display: inline-block;
+    vertical-align: top;
+    width: 75%;
+}

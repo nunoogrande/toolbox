@@ -1,0 +1,20 @@
+.container{
+    background-color: teal;
+    display: grid;
+    grid-template-columns: 25% auto;
+    grid-template-rows: 1fr 1fr;
+}
+nav{
+    background-color: sienna;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.grid-column{
+    background-color: yellowgreen;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: span 2;
+}

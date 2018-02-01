@@ -1,0 +1,16 @@
+
+body{
+    background-color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1px;
+    margin: 1px;
+    max-width: 100%;
+    max-height: 100%;
+}
+.flex-item{
+    display: flex;
+    flex-direction: row;
+    height:25px ;
+    width: 25px;
+    color: blue;
+   }

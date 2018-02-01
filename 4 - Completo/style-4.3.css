@@ -1,0 +1,13 @@
+.container{
+    display: -webkit-flex;
+    display: flex;
+}
+nav{
+    background-color: darkgreen;
+    width: 200px;
+}
+.flex-column{
+    background-color: darkgoldenrod;
+    -webkit-flex: 1;
+            flex: 1;
+}

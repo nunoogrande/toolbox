@@ -1,0 +1,134 @@
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    background-color:yellowgreen;
+    margin: auto;
+    padding: 2px;
+}
+h1{
+    text-align: medium;
+}
+.retângulo{
+    height: 150px;
+    width: 100px;
+    background-color: orange;
+    margin: 2px;
+    justify-content: auto;
+    text-align: center;
+}
+.cubo{
+    height: 50px;
+    width: 50px;
+    background-color: orange;
+    margin: 2px;
+    text-align: center;
+}
+.row-reverse{
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: yellowgreen;
+    margin: auto;
+    padding: 2px;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+    background-color: yellowgreen;
+    margin: auto;
+    padding: 2px;
+}
+.column-reverse{
+    display: flex;
+    flex-direction: column-reverse;
+    background-color: yellowgreen;
+    margin: auto;
+    padding: 2px;
+}
+.flex-nowrap{
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: yellowgreen;
+    margin: auto;
+    padding: 2px;
+}
+.flex-wrap{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: yellowgreen;
+    margin: auto;
+    padding: 2px;
+}
+.flex-wrap-reverse{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    background-color: yellowgreen;
+    margin: auto;
+    padding: 2px;
+}
+.flex-start{
+    display: flex;
+    justify-content: flex-start;
+    background-color: yellowgreen;
+    margin: auto;
+    padding: 2px;
+}
+.flex-end{
+    display: flex;
+    justify-content: flex-end;
+    background-color: yellowgreen;
+    margin: auto;
+    padding: 2px;
+}
+.flex-center{
+    display: flex;
+    justify-content: center;
+    background-color: yellowgreen;
+    margin: auto;
+    padding: 2px;
+}
+.space-between{
+    display: flex;
+    justify-content: space-between;
+    background-color: yellowgreen;
+    margin: auto;
+    padding: 2px;
+}
+.space-around{
+    display: flex;
+    justify-content: space-around;
+    background-color: yellowgreen;
+    margin: auto;
+    padding: 2px;
+}
+.align-items-stretch{
+    display: flex;
+    align-items: stretch;
+    background-color: yellowgreen;
+    margin: auto;
+    padding: 2px;
+}
+.align-items-flex-start{
+    display: flex;
+    align-items: flex-start;
+    background-color: yellowgreen;
+    margin: auto;
+    padding: 2px;
+}
+.align-items-flex-end{
+    display: flex;
+    align-items: flex-end;
+    background-color: yellowgreen;
+    margin: auto;
+    padding: 2px;
+}
+.align-items-flex-center{
+    display: flex;
+    align-items: center;
+    background-color: yellowgreen;
+    margin-right: 20px;
+    padding-left: 2px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 2px; 
+}

@@ -1,0 +1,17 @@
+@media screen and (min-width:600px){
+    nav{
+        background-color: seagreen;
+        float: left;
+        width: 25%;
+        height: 25%;
+    }
+    section{
+        background-color: saddlebrown;
+        margin-left: 25%;
+    }
+}
+@media screen and (max-width:599px){
+    nav li{
+        display: inline;
+    }
+}

@@ -1,0 +1,277 @@
+body{
+    margin: 1%;
+}
+.outline{
+    border: solid 1px black;
+    margin: 1% 1% 1% 1%;
+    padding: 0% 0% 0% 0%;
+    width: 95%;
+    height: 95%; 
+}
+.outline2{
+    border: solid 1px black;
+    margin: 1% 1% 1% 1%;
+    padding: 0% 0% 0% 0%;
+    width: 70%;
+    height: 70%; 
+}
+p{
+    margin-right: 1px;
+    margin-left:1px;
+    font-size: larger;
+    text-align: center;
+}
+div{
+    margin: 1% 1% 1% 1%;
+}
+.decor{
+    background-color: lightgray;
+    width: 250px;
+    height: 250px;
+    border: solid 2px rgba(128, 128, 128, 0.226);
+    padding: 10px;
+    margin: 15px;
+}
+.flex-container{
+    display: flex;
+    flex-direction: row-reverse;
+    border: solid 2px rgba(128, 128, 128, 0.226);
+}
+.flex-item{
+    width: 50px;
+    height: 50px;
+    border-radius: 25%;
+    margin: 0% 0% 0% 0%;
+    background-color: green;
+}
+.E3-2{
+    display:flex;
+    justify-content: center;
+}
+.E3-3{
+    display:flex;
+    justify-content: space-around;
+}
+.E3-4{
+    display:flex;
+    justify-content: space-between;
+}
+.E3-5{
+    display:flex;
+    align-items: flex-end;
+}
+.E3-6{
+    display:flex;
+    align-items: center;
+    justify-content: center; 
+}
+.E3-7{
+    display:flex;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+.E3-8{
+    display:flex;
+    justify-content:flex-start;
+    flex-direction: row-reverse;
+}
+.E3-9{
+    display:flex;
+    flex-direction: column;
+}
+.E3-10{
+    display:flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
+.E3-11{
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.E3-12{
+    display:flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+}
+.E3-13{
+    display:flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex-direction: row-reverse;
+}
+.E3-14{
+    display:flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.E3-14 .amarelo{
+    display:flex;
+    order:1;
+}
+.verde{
+    background-color: green;
+}
+.amarelo{
+    background-color: yellow;
+}
+.vermelho{
+    background-color: red;
+}
+.E4-01-1{
+    display:flex;
+    align-items: flex-start;
+    justify-content:flex-start ;
+}
+.E4-01-2{
+    display:flex;
+    align-items: flex-start;
+    justify-content:flex-start ;
+}
+.E4-02-1{
+    display:flex;
+    align-items: flex-start;
+    justify-content:flex-start ;
+}
+.E4-02-2{
+    display:flex;
+    align-items: flex-start;
+    justify-content:flex-start ;
+}
+.E4-03-1{
+    display:flex;
+    align-items: flex-start;
+    justify-content:flex-start ;
+}
+.E4-03-2{
+    display:flex;
+    align-items: flex-start;
+    justify-content:flex-start ;
+}
+.E4-04-1{
+    display:flex;
+    align-items: flex-start;
+    justify-content:flex-start ;
+}
+.E4-04-2{
+    display:flex;
+    align-items: flex-start;
+    justify-content:flex-start ;
+    flex-wrap: wrap;
+}
+.E4-05-1{
+    display:flex;
+    flex-direction: flex-start;
+    justify-content:flex-start ;
+}
+.E4-05-2{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.E4-06-1{
+    display:flex;
+    align-items: flex-start;
+    justify-content:flex-start ;
+}
+.E4-06-2{
+    display:flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+.E4-07-1{
+    display:flex;
+    flex-wrap: nowrap;
+    justify-content:flex-start ;
+}
+.E4-07-2{
+    display:flex;
+    flex-wrap: wrap;
+    align-content: flex-end;
+}
+.E4-08-1{
+    display:flex;
+    flex-wrap: nowrap;
+    justify-content:flex-start ;
+}
+.E4-08-2{
+    display:flex;
+    flex-wrap: wrap;
+    align-content: center;
+    flex-direction: column-reverse;
+}
+.E4-09-1{
+    display:flex;
+    justify-content: space-between;
+}
+.E4-09-2{
+    display:flex; 
+    flex-direction: column-reverse;
+}
+.E4-09-2{
+    display:flex; 
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+}
+.E4-09-2 .C-7, .E4-09-2 .C-6{
+    display:flex;
+    align-self: flex-end;
+}
+.E4-01-1 .C-4{
+    display:flex;
+    background-color: red;
+}
+.E4-01-2 .C-1{
+    display:flex;
+    background-color: red;
+}
+.E4-02-1 .C-3{
+    display:flex;
+    background-color:yellow;
+}
+.E4-02-2 .C-3{
+    display:flex;
+    background-color:yellow;
+    align-self: flex-end;
+}
+.E4-03-1 .C-1, .E4-03-1 .C-3 {
+    display:flex;
+    background-color:yellow;
+}
+.E4-03-2 .C-4, .E4-03-2 .C-5 {
+    display:flex;
+    background-color:yellow;
+    align-self: flex-end
+}
+.E4-04-1 .C-1, .E4-04-2 .C-1{
+    display:flex;
+    background-color:yellow;
+}
+.E4-04-1 .C-7, .E4-04-2 .C-7{
+    display:flex;
+    background-color: red;
+}
+.E4-05-1 .C-6,.E4-05-1 .C-7, .E4-05-1 .C-8,.E4-05-1 .C-9, .E4-05-1 .C-10{
+    display: flex;
+    background-color: yellow
+}
+.E4-05-1 .C-11,.E4-05-1 .C-12, .E4-05-1 .C-13,.E4-05-1 .C-14, .E4-05-1 .C-15{
+    display: flex;
+    background-color: red
+}
+.E4-08-1 .C-1, .E4-08-1 .C-6, .E4-08-1 .C-11{
+    display:flex;
+    background-color:red;
+}
+.E4-08-1 .C-5, .E4-08-1 .C-10, .E4-08-1 .C-15{
+    display:flex;
+    background-color:yellow;
+}
+.E4-09-1 .C-1{
+    display:flex;
+    background-color:red;
+}
+.E4-09-1 .C-6, .E4-09-1 .C-7{
+    display:flex;
+    background-color:yellow;
+}
