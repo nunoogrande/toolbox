@@ -1,8 +1,0 @@
-#Flexbox
-  Uma das coisas que aprendi foi o flexbox onde em 4 fichas, o tema é esse.
-  Flexbox faz parte da especificação do CSS que promete organizar elementos na página previsivelmente quando o layout precisa
-ser visualizado em diversos tamanhos..
-  O Flexbox nos ajuda a organizar esses elementos sem a ajuda do float e também nos ajudam a sanar problemas de Box Model que normalmente
-acontecem quando acrescentamos, padding, margin e border além da largura do elemento.
-  A ideia é simples,um elemento com flexbox pode se posicionar em qualquer direção e pode ter dimensões flexíveis de se adaptar.
-  Alem de no css, o flexbox tambem pode ser usado no Html.

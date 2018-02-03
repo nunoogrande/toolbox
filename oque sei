@@ -1,0 +1,61 @@
+Extrutura
+
+  Aprendi a extruturar um ficheiro de html e css,a usar as tecnicas de flexboox,grid e float.
+  
+#float
+
+  Eles resolvem o problema de alinhamento dos espaços de forma mais elegante, ocupando
+dinamicamente os espaços deixados vazios.
+
+#Flexbox
+
+  Uma das coisas que aprendi foi o flexbox onde em 4 fichas, o tema é esse.
+  Flexbox faz parte da especificação do CSS que promete organizar elementos na página previsivelmente quando o layout precisa
+ser visualizado em diversos tamanhos..Calcula automaticamente o espaço
+disponível entre elementos, permite centrá-los horizontal/verticalmente e até permite alterar-lhes a
+ordem.
+  O flexbox nos ajuda a organizar esses elementos sem a ajuda do float e também nos ajudam a sanar problemas de Box Model que normalmente
+acontecem quando acrescentamos, padding, margin e border além da largura do elemento.
+  A ideia é simples,um elemento com flexbox pode se posicionar em qualquer direção e pode ter dimensões flexíveis de se adaptar.
+  Alem de no css, o flexbox tambem pode ser usado no Html.
+  O flexBox é constituído pelo flex container (iniciado com display: flex) e pelos flex items
+  A maior limitação que se pode apontar ao flexbox é este ser apenas um sistema uni-dimensional.
+  
+      #Flex-direction
+      
+      O flex-direction,especifica como os flex items são posicionados no flex container, definindo a direção do eixo
+principal,os flex items podem ser orientados em linhas ou colunas.(row,row-reverse,column, column-reverse)
+ 
+     #Flex-wrap
+     
+     No flex-wrap, os flex items são dispostos numa única linha, adaptando as suas dimensões para se
+adaptar ao flex container. Usamos esta propriedade para permitir que os itens fluam em múltiplas linhas.(nowwrap,wrap,wrap-reverse)
+
+     #Justify-content
+     
+     O justify-content,define o alinhamento dos flex items no eixo principal (flex-start,flex-end,space-between,space-around,center)
+     
+     #Align-items
+     
+     O align-items, define o alinhamento dos flex items no eixo perpendicular ao eixo principal(stretch,baseline,
+     flex-end,flex-start,center)
+     
+     #Align-content
+     
+     O align-content, define o alinhamento no flex container,quando ainda resta espaço no cross-axis.
+     (stretch,flex-end,flex-start,space-between,space-around,center)
+     
+     #Order
+     Com o order podemos alterar a ordem do item no flex container
+  
+#grid
+Enquanto que o flexbox é um sistema uni-dimensional, o grid é bi.dimensional
+
+#ficha4
+Com a ficha 4 aprendi a estruturar uma nav, um footer e secções.
+
+#ficha8
+Com a ficha8, aprendi a criar um painel e um botão.
+
+#fichas 11-14
+No restante dasfichas pos em pratica, os conhecimentos adqueridos, alem de os poder melhorar.
